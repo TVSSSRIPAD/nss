@@ -1,0 +1,36 @@
+.lead_nss{
+margin-left: 60vw;
+position: absolute;
+width:8vw;
+}
+.listitems{
+  background-color:#FAFAFA;
+}
+.title:after {
+    content: "";
+    display: block;
+    height: 4px;
+    max-width: 60px;
+    width: 50vw;
+    background-color: #6195FF;
+    margin-top: 10px;
+}
+.Events .title:after{
+  max-width: 100px;
+  width:60vw;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.address{
+  font-size: 22px;
+}
+.Events{
+
+}
+.AboutUs{
+  font-size: 24px;
+}
+.FollowUs{}
