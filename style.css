@@ -1,23 +1,52 @@
 .lead_nss{
-margin-left: 60vw;
-position: absolute;
-width:8vw;
+float:right;
+
+background-color: black;
+width:75px;
+height:75px;
+border-radius: 37.5px;
 }
-.listitems{
-  background-color:#FAFAFA;
+.navbar{
+  border-radius: 5px;
 }
+.banner{
+
+  color:white;
+  border-radius: 5px;
+}
+
 .title:after {
     content: "";
     display: block;
     height: 4px;
-    max-width: 60px;
-    width: 50vw;
+
+    width: 10vw;
     background-color: #6195FF;
     margin-top: 10px;
 }
-.Events .title:after{
-  max-width: 100px;
-  width:60vw;
+
+.Nss{
+
+}
+.win:after{
+  content: "";
+  display: block;
+  height: 4px;
+
+  width: 11vw;
+  background-color: #6195FF;
+  margin-left: 30vw;
+  margin-top: 10px;
+}
+.team:after{
+  content: "";
+  display: block;
+  height: 4px;
+
+  width: 13vw;
+  background-color: #6195FF;
+  margin-left: 30vw;
+  margin-top: 10px;
 }
 :after, :before {
     -webkit-box-sizing: border-box;
@@ -27,10 +56,17 @@ width:8vw;
 .address{
   font-size: 22px;
 }
+.Nss,.Events{
+  font-size: 20px;
+}
 .Events{
 
 }
+.conAboutUS{
+    background-color:#FAFAFA;
+}
 .AboutUs{
   font-size: 24px;
+
 }
 .FollowUs{}
